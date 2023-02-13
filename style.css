@@ -1,0 +1,264 @@
+/*style*/
+
+
+
+
+body {
+    font-family: verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+  background-color: #1f2937;
+  display: flex;  
+  /*padding-inline: 100px;*/
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0;
+  gap: 250px;
+}
+
+.logo h1 {
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 8px;
+}
+
+header .links {
+    color: #F9FAF8;;
+    
+}
+
+.links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.section1 {
+    display: flex;
+    background-color: #1f2937;
+    /*padding-inline: 200px;*/
+    padding-top: 150px;
+    padding-bottom: 150px;
+    justify-content: space-around;
+}
+
+.image {
+    width: 400px;
+    height: 220px;
+    background-color: gray;
+    flex-shrink: 1;
+    
+}
+
+.section1 h1 {
+    color: #F9FAF8;
+    width: 300px;
+    font-weight: bolder;
+    font-size: 48px;
+    margin: 0;
+    
+}
+
+.section1 .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section1 p {
+    color: white;
+    width: 400px;
+    margin: 0;
+}
+
+.section1 .left button {
+    font-weight: bold;
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+
+}
+
+.section2 h1 {
+    color: #1f2937;
+
+}
+
+.section2 img {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+    
+
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.section2 p {
+    color: #1f2937;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+
+}
+
+.img2 {
+    display: flex;
+    flex-direction: column;   
+    align-items: center; 
+    text-align: center;
+    width: 150px;
+}
+
+.img3 {
+    display: flex;
+    flex-direction: column;   
+    align-items: center; 
+    text-align: center;
+    width: 150px;
+}
+
+.img4 {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    text-align: center;
+    width: 150px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 250px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: flex-start;
+}
+
+.section3 .quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.section3 .signature p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote {
+    flex-grow: 0;
+    align-self: center;
+}
+
+.signature {
+    flex-grow: 0;
+    align-self: flex-end;
+
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    
+    gap: 30px;
+    background-color: #3882f6;
+    padding-inline: 100px;
+    padding-block: 60px;
+    border-radius: 10px;
+    margin: 0;
+      
+}
+
+.section4 .card .left {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.section4 .card button {
+    width: 100px;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card .left p {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.card .left h1 {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f2937;
+}
+
+footer p {
+    color: #E5E7EB;
+}
